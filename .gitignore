@@ -26,7 +26,6 @@ share/python-wheels/
 *.egg
 MANIFEST
 conta_bancaria.py
-domino.py
 funcionario.py
 produto.py
 
