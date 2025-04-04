@@ -12,7 +12,7 @@ class ContaBancaria():
     def sacar(self, valor):
         if valor > 0 and valor <= self.__saldo:
             self.__saldo -= valor
-            return
+            return True
         elif valor > self.__saldo:
             raise ValueError("Saldo insuficiente.")
         else:
@@ -21,7 +21,6 @@ class ContaBancaria():
     
     @property
     def exibir_saldo(self):
-        print(self.__saldo)
         return f"{self.__saldo:.2f}"
     
     @property
