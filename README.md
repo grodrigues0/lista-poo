@@ -49,4 +49,3 @@ Crie uma classe Produto para representar um item de uma loja.
 - Método reabastecer(quantidade), que aumenta o estoque.
 - Método exibir_detalhes(), que exibe todas as informações do produto.
 - __str__(), para retornar uma string amigável.
-
